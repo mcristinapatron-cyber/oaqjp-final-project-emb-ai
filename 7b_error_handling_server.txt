@@ -28,7 +28,7 @@ def sent_analyzer():
     if response['dominant_emotion'] is None:
         return "Invalid text! Please try again!"
 
-        # Parse the response into given output format
+    # Parse the response into given output format
     emotions = list(response.keys())
     emotions.remove('dominant_emotion')
 
